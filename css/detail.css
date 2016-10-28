@@ -1,0 +1,36 @@
+
+
+
+.zoom{position:relative;}
+.zoom:after{content:".";height:0;clear:both;overflow:hidden;visibility:hidden;display:block;}
+.zoom_small{width:402px;height:402px;position:relative;margin:40px 100px;float:left;border:1px solid #269ABC;}
+.zoom_small img{width:400px;height:400px;}
+.zoom_shoot{display:none;background:#ccc;width:200px;height:200px;opacity:.5;filter:alpha(opacity=50);z-index:10;position:absolute;left:0;top:0;}
+.zoom_big{position:relative;display:none;width:402px;height:402px;position:absolute;left:550px;top:40px;z-index:10;border:1px solid #269ABC;overflow:hidden;}
+.zoom_big img{width:800px;height:800px;position:absolute;left:0;top:0;}
+
+.product_bottom{float:left;margin-top:40px;}
+.product_bottom1{font-size:24px;line-height:30px;}
+.product_bottom2{height:113px;width:436px;background:url(../images/detail/money_box.png);}
+.product_bottom2 p{font-size:14px;color:#666;line-height:30px;padding-left:20px;}
+.product_bottom2 .product_bottom21{font-size:24px;color:#ff2832;font-weight:bold;}
+.product_bottom2 p span{color:#a3a3a3;}
+.product_bottom3{line-height: 30px;font-size:14px;color:#666;padding-left:20px;margin:10px 0;}
+.product_bottom4{display:block;padding-left:20px;}
+.product_bottom5{line-height: 30px;font-size:14px;color:#666;padding-left:20px;margin:10px 0;color:#ff2200;}
+.product_bottom6{display:block;cursor:pointer;}
+.product_bottom7{display:block;cursor:pointer;margin-top:20px;}
+
+.shopcar:after{content:".";height:0;clear:both;overflow:hidden;visibility:hidden;display:block;}
+.shopcar1{margin:10px 40px;float:right;width:120px;height:30px;line-height:30px;text-align:center;background:#C7254E;color:#fff;font-size:18px;}
+.shopcar1 a{color:#fff;}
+.shopcar1 span{font-weight:bold;display:inline-block;width:20px;}
+
+.img_box{height:120px;position:relative;overflow:hidden;padding:0!important;}
+.img_box .img_list{width:1960px;overflow:hidden;position:absolute;left:0;top:0;}
+.img_box .img_list li{display:table-cell;width:100px;height:100px;float:left;text-align:center;border:1px solid #d6d6d6;cursor:pointer;margin:10px 20px;}
+.img_box .img_list li:hover{border:1px solid red !important;}
+.img_box .img_list li img{max-height:94px;max-width:94px;}
+.img_box .img_btn{z-index:10;cursor:pointer;height:100px;width:20px;background:#d6d6d6;font-size:26px;line-height:100px;color:#fff;position:absolute;top:10px;}
+.img_box .img_last{left:0px;}
+.img_box .img_next{right:0px;}

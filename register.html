@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册界面</title>
+	<script src="js/jquery_1.11.3.min.js"></script>
+	<script src="js/jquery.cookie.js"></script>
+	<!-- 新 Bootstrap 核心 CSS 文件 -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+	
+	<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="css/login.css">
+	<link rel="stylesheet" href="css/common.css" />
+</head>
+<body>
+	<!--header==================================================-->
+	<div class="header col-md-12">
+			<p class="header_p col-md-3 col-md-offset-1">您好，欢迎来到二淘网！ <a href=""> 登录 </a><a href=""> 注册 </a></p>
+			<ul class="header_ul col-md-5 col-md-offset-3">
+				<li><a class="header_nb" href="">已买到的二手</a></li>
+				<li><a href="">发布二手</a></li>
+				<li><a href="">用户中心</a></li>
+				<li><a href="">联系客服</a></li>
+				<li><a href="">帮助中心</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<div class="logo col-md-12">
+			<div class="logo_top col-md-5 col-md-offset-5">
+				<a href="#">二手</a>
+				<a href="#">卖家</a>
+			</div>
+			<div class="logo_input col-md-5 col-md-offset-5">
+				<input class="col-md-4" type="text" placeholder="搜索您想要的..."/>
+				<button class="col-md-1">搜索</button>
+			</div>
+			<ul class="logo_bottom col-md-5 col-md-offset-5">
+				<li><a href="">苹果</a></li>
+				<li><a href="">iPhone</a></li>
+				<li><a href="">手机</a></li>
+				<li><a href="">三星</a></li>
+				<li><a href="">小米</a></li>
+				<li><a href="">笔记本</a></li>
+				<li><a href="">索尼</a></li>
+			</ul>
+		</div>
+		<div class="banner_select col-md-12">
+				<ul class="col-md-10 col-md-offset-2">
+					<li><a href="">首页</a></li>
+					<li><a href="">跳蚤市场</a></li>
+					<li><a href="">二手拍卖</a></li>
+				</ul>
+		</div>
+		<div class="clear"></div>
+	<!--content===================================================-->
+	<div class="form_out col-md-10 col-md-offset-1">
+		<div class="col-md-6 col-md-offset-1 form_top">
+			<form class="form-horizontal" role="form">
+				<div class="form-group">
+					<label for="UserName" class="col-sm-2 control-label"><span>* </span> 账号</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" id="UserName" placeholder="账号">
+					</div>
+					<p class="col-sm-4 control-label">手机号</p>
+				</div>
+				<div class="form-group">
+					<label for="password" class="col-sm-2 control-label"><span>* </span> 密码</label>
+					<div class="col-sm-6">
+						<input type="password" class="form-control" id="password" placeholder="密码">
+					</div>
+					<p class="col-sm-4 control-label">字母开头，6-20位</p>
+				</div>
+				<div class="form-group">
+					<label for="checkword" class="col-sm-2 control-label"><span>* </span> 验证码</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" id="checkword" placeholder="验证码">
+					</div>
+					<p class="codep col-sm-4 control-label"><img class="codepic" src="js/code_gg.php" onclick="changecode()" title="看不清，点击换一张" alt="" /></p>
+				</div>
+				<div class="form-group">
+					<label for="NickName" class="col-sm-2 control-label">昵称</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" id="NickName" placeholder="昵称">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="age" class="col-sm-2 control-label">年龄</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" id="age" placeholder="年龄">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="sex" class="col-sm-2 control-label">性别</label>
+					<div class="col-sm-6">
+						<input type="text" class="form-control" id="sex" placeholder="性别">
+					</div>
+				</div>
+	
+	
+				<div class="form-group">
+					<div class="col-sm-offset-2 col-sm-10">
+						<button type="submit" id="register" class="btn btn-danger btn-bg btn-default">注册</button>
+					</div>
+				</div>
+			</form>
+		</div>
+		<div class="col-md-5">
+			<img src="images/img/login_r_jf.png" alt="" />
+		</div>
+	</div>
+		<!--bottom===================================================-->
+		<div class="clear"></div>
+		<div class="bottom2">
+			<ul class="bottom21 col-md-7">
+				<li class="col-md-3">
+					<h5>关于二淘</h5>
+					<p><a href="">关于我们</a></p>
+					<p><a href="">新闻动态</a></p>
+					<p><a href="">商家入驻</a></p>
+				</li>
+				<li class="col-md-3">
+					<h5>关于二淘</h5>
+					<p><a href="">关于我们</a></p>
+					<p><a href="">新闻动态</a></p>
+					<p><a href="">商家入驻</a></p>
+				</li>
+				<li class="col-md-3">
+					<h5>关于二淘</h5>
+					<p><a href="">关于我们</a></p>
+					<p><a href="">新闻动态</a></p>
+					<p><a href="">商家入驻</a></p>
+				</li>
+				<li class="col-md-3">
+					<h5>关于二淘</h5>
+					<p><a href="">关于我们</a></p>
+					<p><a href="">新闻动态</a></p>
+					<p><a href="">商家入驻</a></p>
+				</li>
+			</ul>
+			<div class="bottom22 col-md-2">
+				<h5>关注我们</h5>
+				<ul class="bottom222">
+					<li class="bgone"></li>
+					<li class="bgtwo"></li>
+					<li class="bgthr"></li>
+				</ul>
+			</div>
+			<div class="bottom23 col-md-3">
+				<h2>400-005-3512</h2>
+				<p>免费热线电话，周一至周六10:00-19:30</p>
+			</div>
+		</div>
+		<div class="bottom3">
+			<p>© 2014 2tao.com 二淘网络有限责任公司 版权所有 | 新ICP备11000115号-3</p>
+			<h5><img src="images/bottom/beian01.png" alt="" />新公网安备65010203010504</h5>
+			<div class="bottom31">
+				<img src="images/bottom/z1.png" alt="" />
+				<img src="images/bottom/z2.png" alt="" />
+				<img src="images/bottom/z3.png" alt="" />
+			</div>
+		</div>
+		<script>
+			jQuery(document).ready(function($) {
+				console.log(changecode());
+				$("form").on("submit",function(){
+					var flag1,flag2,flag3;
+					
+					flag1=checkUserName($("#UserName"));
+					console.log(flag1)
+					flag2=checkPassword($("#password"));
+					checkcode($("#checkword"),flag1,flag2);
+					//sleep('5')
+					//flag3=checkcode($("#checkword"));
+					//alert(flag3);    //alert()会阻止ajax获取数据
+//					if(flag1==true&&flag2==true&&flag3==true)
+//					{
+//						alert("注册成功！");
+//						$.cookie("UserName",$("#UserName").val());
+//						$.cookie("password",$("#password").val());
+//						$.cookie("NickName",$("#NickName").val());
+//						document.location="login.html";
+//					}else{
+//						alert("注册失败!请认真填写信息!");
+//					}
+					
+					return false;
+				})
+				clearStyle($("#UserName"));
+				clearStyle($("#password"));
+				clearStyle($("#checkword"));
+			});
+			function checkUserName(obj){ 
+					if(/^1[3|4|5|7|8]\d{9}$/.test(obj.val() ) ) 
+					{
+						if($.cookie().UserName)
+						{
+							var unobj=JSON.parse($.cookie().UserName);
+						}else
+						{
+							var unobj={};
+						}
+						if(unobj[obj.val()])
+						{
+							obj.parent().addClass('has-error has-feedback').append('<span class="glyphicon glyphicon-remove form-control-feedback"></span>'); 
+							return 2;
+						}else
+						{
+							obj.parent().addClass('has-success has-feedback').append('<span class="glyphicon glyphicon-ok form-control-feedback"></span>');
+							return true;
+						}
+					}else
+					{ 
+						obj.parent().addClass('has-error has-feedback').append('<span class="glyphicon glyphicon-remove form-control-feedback"></span>'); 
+						return false;
+					}
+				}
+			function clearStyle(obj)
+			{
+				obj.on('focus',function() {
+					obj.parent().removeClass('has-error has-feedback');
+					obj.parent().removeClass('has-success has-feedback');
+					obj.siblings().remove();
+				});
+			}
+			function checkPassword(obj){ 
+				if(/^[\w.]{6,20}$/.test(obj.val() ) ) 
+					{
+						obj.parent().addClass('has-success has-feedback').append('<span class="glyphicon glyphicon-ok form-control-feedback"></span>');
+						return true;
+					}else
+					{ 
+						obj.parent().addClass('has-error has-feedback').append('<span class="glyphicon glyphicon-remove form-control-feedback"></span>'); 
+						return false;
+					}
+			}
+			//验证码验证
+			function changecode(){
+				$(".codepic").attr({"src":"js/code_gg.php?"+Math.random()});
+			}
+			function checkcode(obj,flag1,flag2){
+				var code_gg = obj.val();
+//				$.post("js/chk_code.php?act=gg",{code:code_gg},function(msg){
+//					if(msg==1){
+//						obj.parent().addClass('has-success has-feedback').append('<span class="glyphicon glyphicon-ok form-control-feedback"></span>');
+//						return true;
+//					}else{
+//						obj.parent().addClass('has-error has-feedback').append('<span class="glyphicon glyphicon-remove form-control-feedback"></span>'); 
+//						return false;
+//					}
+//				});
+				$.ajax({
+					type:"post",
+					url:"js/chk_code.php?act=gg",
+					async:true,
+					data:{code:code_gg},
+					success:function(msg){
+						//console.log(msg)
+						if(msg==1){
+							obj.parent().addClass('has-success has-feedback').append('<span class="glyphicon glyphicon-ok form-control-feedback"></span>');
+							if(flag1==2&&flag2==true)
+							{
+								alert("用户名已存在！");
+							}else if(flag1==true&&flag2==true)
+							{
+								alert("注册成功！");
+								if($.cookie().UserName)
+								{
+									var unobj1=JSON.parse($.cookie().UserName);
+								}else
+								{
+									var unobj1={};
+								}
+								unobj1[$("#UserName").val()]=$("#password").val();
+								$.cookie("UserName",JSON.stringify(unobj1));
+								$.cookie("NickName",$("#NickName").val());
+								document.location="login.html";
+							}else{
+								alert("注册失败!请认真填写信息!");
+							}
+						}else{
+							obj.parent().addClass('has-error has-feedback').append('<span class="glyphicon glyphicon-remove form-control-feedback"></span>'); 
+							alert("注册失败!请认真填写信息!");
+						}
+					}
+				});
+			}
+		</script>
+
+	</body>
+	</html>

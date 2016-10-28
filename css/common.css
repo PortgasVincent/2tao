@@ -1,0 +1,74 @@
+*{margin:0;padding:0;}
+html,body{width:100%;height:100%;}
+body{font:12px "微软雅黑";color:#333;}
+a{text-decoration:none!important;color:#333;}
+a:hover{color:#333;}
+img{border:none;}
+ul,li,dl{list-style:none;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:normal;font-size:12px;}
+i,em{font-style:normal;}
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+.p_d{padding:0!important;}
+.p_l{padding-left:0!important;}
+.p_t{padding-top:0!important;}
+.p_r{padding-right:0!important;}
+.p_b{padding-bottom:0!important;}
+.m_g{margin:0!important;}
+.m_l{margin-left:0!important;}
+.m_t{margin-top:0!important;}
+.m_r{margin-right:0!important;}
+.m_b{margin-bottom:0!important;}
+.clearfix:after{
+	content:"";
+	display: block;
+	height:0;
+	overflow: hidden;
+	clear: both;
+}
+
+
+
+
+/*-----------------header-----------------------------------------------*/
+.header{height:29px;background-color:#f2f2f2;border:1px solid #e5e5e5;}
+.header_p a{margin-left:12px;color:#ff2832;line-height:29px;}
+.header_ul{margin-bottom:0;}
+.header_ul li a{float:left;display:block;width: 80px;border-left:1px solid #333;text-align: center;margin-top:7px;}
+.header_ul .header_nb{border:none;}
+.logo{background:url(../images/search_bg.jpg) no-repeat 36px 0;position:relative;z-index:200;}
+.logo_top{padding:0;margin-top:13px;}
+.logo_top a{display:inline-block;width:55px;height:24px;border-radius:4px 4px 0 0;line-height:24px;text-align:center;color:#ff2832;}
+.logo_top a:first-child{background:#ff2832;color:#fff;}
+.logo_input{width: 530px;height:42px;border:2px solid #ff2832;}
+.logo_input input{width:450px;height:38px;position:absolute;left:0;top:0;border:red;outline:none;}
+.logo_input button{position:absolute;right:0;width:75px;height:39px;background:#ff2832;border:none;outline:none;font-size:18px;color:#fff;}
+.logo_bottom{margin-top:10px;padding-left:0;}
+.logo_bottom li{float:left;}
+.logo_bottom li a{color:#8c8a8b;margin-right:5px;}
+.banner_select{background:#ff2832;height:40px;}
+.banner_select li{float:left;width:90px;height:40px;text-align:center;line-height:40px;font-size:16px;}
+.banner_select li a{color:#fff;}
+.banner_select li:hover{background:#fff;}
+.banner_select li:hover a{color:#ff2832;}
+
+.bottom2{background:url(../images/bottom/9.jpg) repeat;height:212px;margin-top:30px;padding-top:49px;}
+.bottom21 li{text-align:center;background:url(../images/bottom/10.jpg) no-repeat 100% 0;}
+.bottom2 h5{color:#666;font-size:14px;}
+.bottom21 li p a{color:#999;}
+.bottom22{text-align:center;}
+.bottom222{display:flex;justify-content:space-around;margin-top:30px;}
+.bottom222 li{float:left;width:50px;height:50px;}
+.bottom222 .bgone{background:url(../images/bottom/guanzhu.png) no-repeat 0 0;}
+.bottom222 .bgtwo{background:url(../images/bottom/guanzhu.png) no-repeat -63px 0;}
+.bottom222 .bgthr{background:url(../images/bottom/guanzhu.png) no-repeat -126px 0;}
+.bottom222 .bgone:hover{background:url(../images/bottom/guanzhu.png) no-repeat 0 -57px;}
+.bottom222 .bgtwo:hover{background:url(../images/bottom/guanzhu.png) no-repeat -63px -57px;}
+.bottom222 .bgthr:hover{background:url(../images/bottom/guanzhu.png) no-repeat -126px -57px;}
+.bottom23 h2{color:#666;margin-top:16px;font-size:33px;text-align:center;}
+.bottom23 p{color:#999;text-align:center;}
+.bottom3{text-align:center;color:#999;}
+.bottom3 p{margin-top:40px;}
+.bottom3 h5{padding:30px 0;}
+.bottom31{display:flex;justify-content:space-between;width:46%;margin-left:25%;}

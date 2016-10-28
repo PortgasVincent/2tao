@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>摄影摄像详情页</title>
+		<script src="js/jquery_1.11.3.min.js"></script>
+		<script src="js/jquery.cookie.js"></script>
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/login.css">
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/list.css" />
+		<script src="js/getdata.js"></script>
+		<script>
+			$(function(){
+				getdata("json/cam.json");
+				//登录获取昵称
+				if($.cookie().NickName)
+				{
+					$("#nick").html($.cookie().NickName);
+				}
+			})
+		</script>
+	</head>
+	<body>
+		<!--header=============================================-->
+	<div class="header col-md-12">
+			<p class="header_p col-md-3 col-md-offset-1">您好，欢迎来到二淘网！ <span id="nick"><a href="login.html"> 登录 </a><a href="register.html"> 注册 </a></span></p>
+			<ul class="header_ul col-md-5 col-md-offset-3">
+				<li><a class="header_nb" href="">已买到的二手</a></li>
+				<li><a href="">发布二手</a></li>
+				<li><a href="">用户中心</a></li>
+				<li><a href="">联系客服</a></li>
+				<li><a href="">帮助中心</a></li>
+			</ul>
+		</div>
+		<div class="clear"></div>
+		<div class="logo col-md-12">
+			<div class="logo_top col-md-5 col-md-offset-5">
+				<a href="#">二手</a>
+				<a href="#">卖家</a>
+			</div>
+			<div class="logo_input col-md-5 col-md-offset-5">
+				<input class="col-md-4" type="text" placeholder="搜索您想要的..."/>
+				<button class="col-md-1">搜索</button>
+			</div>
+			<ul class="logo_bottom col-md-5 col-md-offset-5">
+				<li><a href="">苹果</a></li>
+				<li><a href="">iPhone</a></li>
+				<li><a href="">手机</a></li>
+				<li><a href="">三星</a></li>
+				<li><a href="">小米</a></li>
+				<li><a href="">笔记本</a></li>
+				<li><a href="">索尼</a></li>
+			</ul>
+		</div>
+		<div class="banner_select col-md-12">
+				<ul class="col-md-10 col-md-offset-2">
+					<li><a href="index.html">首页</a></li>
+					<li><a href="">跳蚤市场</a></li>
+					<li><a href="">二手拍卖</a></li>
+				</ul>
+		</div>
+		<div class="clear"></div>
+		<!--content===============================================-->
+		<div class="content">
+			<ul class="content1">
+				<li class="col-md-2">
+					<a href=""><img src="images/phone/center5.jpg" alt="" /></a>
+					<div class="content11">
+						<p><a href="">自己用国行 16G 白色 苹果 手机 iPhone4S</a></p>
+						<h5>原价：5289.00<span>运费：免运费</span></h5>
+						<h4>现价：1700.00<span>福建 漳州</span></h4>
+						<h3>已售：0件|0评论</h3>
+					</div>
+				</li>
+				<li class="col-md-2">
+					<a href=""><img src="images/phone/center5.jpg" alt="" /></a>
+					<div class="content11">
+						<p><a href="">自己用国行 16G 白色 苹果 手机 iPhone4S</a></p>
+						<h5>原价：5289.00<span>运费：免运费</span></h5>
+						<h4>现价：1700.00<span>福建 漳州</span></h4>
+						<h3>已售：0件|0评论</h3>
+					</div>
+				</li>
+				<li class="col-md-2">
+					<a href=""><img src="images/phone/center5.jpg" alt="" /></a>
+					<div class="content11">
+						<p><a href="">自己用国行 16G 白色 苹果 手机 iPhone4S</a></p>
+						<h5>原价：5289.00<span>运费：免运费</span></h5>
+						<h4>现价：1700.00<span>福建 漳州</span></h4>
+						<h3>已售：0件|0评论</h3>
+					</div>
+				</li>
+				<li class="col-md-2">
+					<a href=""><img src="images/phone/center5.jpg" alt="" /></a>
+					<div class="content11">
+						<p><a href="">自己用国行 16G 白色 苹果 手机 iPhone4S</a></p>
+						<h5>原价：5289.00<span>运费：免运费</span></h5>
+						<h4>现价：1700.00<span>福建 漳州</span></h4>
+						<h3>已售：0件|0评论</h3>
+					</div>
+				</li>
+				<li class="col-md-2">
+					<a href=""><img src="images/phone/center5.jpg" alt="" /></a>
+					<div class="content11">
+						<p><a href="">自己用国行 16G 白色 苹果 手机 iPhone4S</a></p>
+						<h5>原价：5289.00<span>运费：免运费</span></h5>
+						<h4>现价：1700.00<span>福建 漳州</span></h4>
+						<h3>已售：0件|0评论</h3>
+					</div>
+				</li>
+				<li class="col-md-2">
+					<a href=""><img src="images/phone/center5.jpg" alt="" /></a>
+					<div class="content11">
+						<p><a href="">自己用国行 16G 白色 苹果 手机 iPhone4S</a></p>
+						<h5>原价：5289.00<span>运费：免运费</span></h5>
+						<h4>现价：1700.00<span>福建 漳州</span></h4>
+						<h3>已售：0件|0评论</h3>
+					</div>
+				</li>
+			</ul>
+			<div class="content_index">
+				<div class="first_page">首页</div>
+				<div class="last_page">上一页</div>
+				<div class="content_index_num">
+					<div>1</div>
+					<div>2</div>
+					<div>3</div>
+				</div>
+				<div class="next_page">下一页</div>
+				<div class="end_page">尾页</div>
+			</div>
+		</div>
+		<!--bottom=====================================================-->
+	<div class="clear"></div>
+	<div class="bottom2">
+			<ul class="bottom21 col-md-7">
+				<li class="col-md-3">
+					<h5>关于二淘</h5>
+					<p><a href="">关于我们</a></p>
+					<p><a href="">新闻动态</a></p>
+					<p><a href="">商家入驻</a></p>
+				</li>
+				<li class="col-md-3">
+					<h5>关于二淘</h5>
+					<p><a href="">关于我们</a></p>
+					<p><a href="">新闻动态</a></p>
+					<p><a href="">商家入驻</a></p>
+				</li>
+				<li class="col-md-3">
+					<h5>关于二淘</h5>
+					<p><a href="">关于我们</a></p>
+					<p><a href="">新闻动态</a></p>
+					<p><a href="">商家入驻</a></p>
+				</li>
+				<li class="col-md-3">
+					<h5>关于二淘</h5>
+					<p><a href="">关于我们</a></p>
+					<p><a href="">新闻动态</a></p>
+					<p><a href="">商家入驻</a></p>
+				</li>
+			</ul>
+			<div class="bottom22 col-md-2">
+				<h5>关注我们</h5>
+				<ul class="bottom222">
+					<li class="bgone"></li>
+					<li class="bgtwo"></li>
+					<li class="bgthr"></li>
+				</ul>
+			</div>
+			<div class="bottom23 col-md-3">
+				<h2>400-005-3512</h2>
+				<p>免费热线电话，周一至周六10:00-19:30</p>
+			</div>
+		</div>
+		<div class="bottom3">
+			<p>© 2014 2tao.com 二淘网络有限责任公司 版权所有 | 新ICP备11000115号-3</p>
+			<h5><img src="images/bottom/beian01.png" alt="" />新公网安备65010203010504</h5>
+			<div class="bottom31">
+				<img src="images/bottom/z1.png" alt="" />
+				<img src="images/bottom/z2.png" alt="" />
+				<img src="images/bottom/z3.png" alt="" />
+			</div>
+		</div>
+	</body>
+</html>
